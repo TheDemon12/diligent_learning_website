@@ -1,0 +1,55 @@
+#foot {
+    background-color: #0c0c0c;
+    height: 25vh;
+}
+#foot .container-fluid {
+    padding-top: 5vh;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-style: italic;
+}
+#foot-logo img{
+    height: 10vh;
+    float: right;
+    padding-right: 30px;
+}
+#foot-para {
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    border-right: 1px solid #fce32a;
+    border-left: 1px solid #fce32a;
+    padding: 0 20px;
+}
+
+#social {
+
+    color: #fce32a;
+    font-size: 20px;
+}
+ #social ul {
+     list-style-type: none;
+     margin: auto;
+ }
+
+.links {
+text-align: center;
+color: #fff;
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+line-height: 1;
+font-weight: 500;
+vertical-align: text-top;
+font-style: italic;
+padding-top: 5vh;
+
+}
+.dash {
+    border-right: 1px solid #fce32a;
+    padding-right: 20px;
+}
+
+.links li{
+display: inline-block;
+margin-right: 23px;
+}
