@@ -1,0 +1,72 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.dark {
+    background-color: #0c0c0c;
+    opacity: 0.95;
+}
+#head-brand {
+    font-size: 14px;
+    text-transform:uppercase;
+    font-weight:400;
+    font-family: 'Roboto', sans-serif;
+}
+#head-brand img {
+    height: 5vh;
+    margin-right:10px;
+}
+#navbarSupportedContent ul {
+    margin: 0 auto;
+}
+
+#navbarSupportedContent ul li {
+    padding: 0 10px;
+    text-transform:uppercase;
+    font-weight:400;
+    font-family: 'Roboto', sans-serif;
+}
+
+#section1 {
+    margin-top:10vh;
+    text-align: center;
+}
+#section1 h1 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#section1 p {
+    color: #6c6c6c;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+#section1 div div {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#section1 div div i {
+    display: block;
+    font-size: 60px;
+    padding: 20px 0;
+    color: #fce32a;
+}
+#section1 div div h2 {
+    font-size: 20px;
+    font-weight:500;
+    font-family: 'Roboto', sans-serif;
+}
+#section1 div div p {
+    color: #6c6c6c;
+    font-weight:400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16.5px;
+}
+.bod {
+    border-right: 1.5px solid #fce32a;
+    border-left: 1.5px solid #fce32a;
+}
