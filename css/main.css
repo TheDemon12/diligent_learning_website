@@ -29,9 +29,24 @@ body {
     border-bottom: 1px solid #fce32a;
 }
 
+#caro-1 {
+    top: 5vh;
+    height: 80vh;
+}
+#caro-1 .carousel-inner .carousel-item .carousel-caption {
+    top:35vh;
+    bottom:auto;
+}
+/* #caro-1 .carousel-inner .carousel-item img {
+    height: 40vh;
+    object-fit: cover;
+} */
+
+
 
 #section1 {
     margin-top:10vh;
+    margin-bottom:5vh;
     text-align: center;
 }
 #section1 h1 {
@@ -116,4 +131,16 @@ body {
 }
 #section2 div div button:hover{
     background-color: #fce32a;
+}
+
+#caro-2 {
+    height: 40vh;
+}
+#caro-2 .carousel-inner .carousel-item .carousel-caption {
+    top:15vh;
+    bottom:auto;
+}
+#caro-2 .carousel-inner .carousel-item img {
+    height: 40vh;
+    object-fit: cover;
 }
