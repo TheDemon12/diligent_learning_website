@@ -75,7 +75,10 @@
 
 @media screen and (max-width: 750px) and (min-width:651px){
     #foot {
-        height:180px;
+        height:140px;
+    }
+    #foot .container-fluid {
+        padding-top: 30px;
     }
     #foot-para {
         display: none;
@@ -110,7 +113,7 @@
         font-weight: 500;
         vertical-align: text-top;
         font-style: italic;
-        padding-top: 5vh;
+        padding-top: 3.5vh;
         margin-bottom: 0px;
     }
     #foot-logo {
@@ -124,8 +127,11 @@
 
 
 @media screen and (max-width: 650px) {
+    #foot .container-fluid {
+        padding-top: 20px;
+    }
     #foot {
-        height:150px;
+        height:120px;
     }
     #foot-logo img{
         height: 7vh;
