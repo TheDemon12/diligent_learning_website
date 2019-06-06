@@ -1,7 +1,12 @@
 #foot {
     background-color: #0c0c0c;
-    height: 25vh;
+    height: 260px;
 }
+
+#brand {
+    display: none;
+}
+
 #foot .container-fluid {
     padding-top: 5vh;
     color: #6c6c6c;
@@ -32,16 +37,18 @@
      margin: auto;
  }
 
+
 .links {
-text-align: center;
-color: #fff;
-font-size: 14px;
-font-family: 'Roboto', sans-serif;
-line-height: 1;
-font-weight: 500;
-vertical-align: text-top;
-font-style: italic;
-padding-top: 5vh;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    font-weight: 500;
+    vertical-align: text-top;
+    font-style: italic;
+    padding-top: 5vh;
+    margin-bottom: 0px;
 
 }
 .dash {
@@ -51,5 +58,120 @@ padding-top: 5vh;
 
 .links li{
 display: inline-block;
-margin-right: 23px;
+margin-right: 23px;
+}
+
+@media screen and (max-width: 814px) and (min-width:751px){
+    #foot {
+        height: 300px;
+    }
+    .nl {
+        display: block !important;
+        margin-bottom: 2vh;
+        border-right: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 750px) and (min-width:651px){
+    #foot {
+        height:180px;
+    }
+    #foot-para {
+        display: none;
+    }
+    #brand {
+        display: block;
+        border-right: 1px solid #fce32a;
+        border-left: 1px solid #fce32a;
+    }
+    #social ul li{
+        text-align: center;
+    }
+    #foot-nav-bot {
+        display: none;
+    }
+    #social {
+
+        margin-left: -40px;
+    }
+    .nl {
+        display: block !important;
+        margin-bottom: 2vh;
+        border-right: 0px;
+        padding-right: 0px;
+    }
+    #brand h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1;
+        font-weight: 500;
+        vertical-align: text-top;
+        font-style: italic;
+        padding-top: 5vh;
+        margin-bottom: 0px;
+    }
+    #foot-logo {
+        text-align: center;
+    }
+    #foot-logo img{
+        padding-right: 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 650px) {
+    #foot {
+        height:150px;
+    }
+    #foot-logo img{
+        height: 7vh;
+        float: right;
+        margin-top: 1vh;
+    }
+    #foot-para {
+        display: none;
+    }
+    #brand {
+        display: block;
+        border-right: 1px solid #fce32a;
+        border-left: 1px solid #fce32a;
+    }
+    #social ul li{
+        text-align: center;
+    }
+    #foot-nav-bot {
+        display: none;
+    }
+    #social {
+        font-size: 18px;
+        margin-left: -40px;
+    }
+    .nl {
+        display: block !important;
+        margin-bottom: 2vh;
+        border-right: 0px;
+        padding-right: 0px;
+    }
+    #brand h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1;
+        font-weight: 500;
+        vertical-align: text-top;
+        font-style: italic;
+        padding-top: 3vh;
+        margin-bottom: 0px;
+    }
+    #foot-logo {
+        text-align: center;
+    }
+    #foot-logo img{
+        padding-right: 0px;
+    }
 }
