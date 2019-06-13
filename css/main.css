@@ -1,16 +1,42 @@
+
 #caro-1 {
     top: 5vh;
     height: 80vh;
 }
 #caro-1 .carousel-inner .carousel-item .carousel-caption {
-    top:35vh;
+    top:30vh;
     bottom:auto;
 }
-/* #caro-1 .carousel-inner .carousel-item img {
-    height: 40vh;
+#caro-1 .carousel-inner .carousel-item img {
+    height: 80vh;
     object-fit: cover;
-} */
+}
 
+#caro-1 .carousel-inner .carousel-item h1 {
+    font-size:60px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+
+}
+#caro-1 .carousel-inner .carousel-item p {
+    font-size:20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#caro-1 .carousel-inner .carousel-item button {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(255,255,255,0);
+    border: 1.5px solid #fce32a;
+}
+.first{
+    margin-right: 30px;
+    background-color: #fce32a !important;
+    color: #000;
+}
 
 
 #section1 {
@@ -24,6 +50,9 @@
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
+#section1 .row {
+    display: flex;
+}
 
 #section1 p {
     color: #6c6c6c;
@@ -33,14 +62,20 @@
     font-family: 'Roboto', sans-serif;
 }
 #section1 div div {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 25px;
+    min-width: 300px;
 }
 #section1 div div i {
-    display: block;
-    font-size: 60px;
-    padding: 20px 0;
+    /* display: block; */
+    width: 100px;
+    height: 100px;
+    font-size: 55px;
+    padding: 20px;
     color: #fce32a;
+    border: 2px solid #000;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+    border-radius: 80px;
 }
 #section1 div div h2 {
     font-size: 20px;
@@ -112,4 +147,18 @@
 #caro-2 .carousel-inner .carousel-item img {
     height: 40vh;
     object-fit: cover;
+}
+
+@media screen and (max-width: 991px)  {
+    #section1 div div {
+        min-width: 100%;
+    }
+    #section2 div div {
+        min-width: 100%;
+    }
+    .bod {
+        border-right: 0px solid #fce32a;
+        border-left: 0px solid #fce32a;
+    }
+
 }
