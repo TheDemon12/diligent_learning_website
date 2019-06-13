@@ -21,11 +21,12 @@
     margin-bottom: 5vh;
 }
 
+#section1 .row {
+    display: flex;
+}
 #section1 div div {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 25px;
+    min-width: 301px !important;
 }
 #section1 div div img{
     margin-bottom: 20px;
@@ -48,7 +49,8 @@
     font-weight: 500;
     text-transform: uppercase;
     border-color: #fce32a;
-    /* display: contents; */
+    display: block;
+    margin: 0 auto;
 }
 #section1 div div button:hover{
     background-color: #fce32a;
@@ -60,4 +62,17 @@
 }
 .row-center .col{
     max-width: 25%;
+}
+
+
+
+@media screen and (max-width: 991px)  {
+    #section1 div div {
+        min-width: 100%;
+}
+    .bod {
+        border-right: 0px solid #fce32a;
+        border-left: 0px solid #fce32a;
+    }
+
 }
