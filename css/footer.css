@@ -85,6 +85,10 @@
     }
     #brand {
         display: block;
+
+    }
+    #brand_bod {
+        margin-top: 2.5vh;
         border-right: 1px solid #fce32a;
         border-left: 1px solid #fce32a;
     }
@@ -113,7 +117,7 @@
         font-weight: 500;
         vertical-align: text-top;
         font-style: italic;
-        padding-top: 3.5vh;
+        padding-top: 1.5vh;
         margin-bottom: 0px;
     }
     #foot-logo {
@@ -143,6 +147,10 @@
     }
     #brand {
         display: block;
+
+    }
+    #brand_bod {
+        margin-top: 2.5vh;
         border-right: 1px solid #fce32a;
         border-left: 1px solid #fce32a;
     }
@@ -171,7 +179,7 @@
         font-weight: 500;
         vertical-align: text-top;
         font-style: italic;
-        padding-top: 3vh;
+        padding-top: 1vh;
         margin-bottom: 0px;
     }
     #foot-logo {
