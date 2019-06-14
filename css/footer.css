@@ -142,6 +142,7 @@
         display: none;
     }
     #brand {
+        margin-top: 2.5vh;
         display: block;
         border-right: 1px solid #fce32a;
         border-left: 1px solid #fce32a;
@@ -171,7 +172,7 @@
         font-weight: 500;
         vertical-align: text-top;
         font-style: italic;
-        padding-top: 3vh;
+        padding-top: 1vh;
         margin-bottom: 0px;
     }
     #foot-logo {
