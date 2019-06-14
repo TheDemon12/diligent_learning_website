@@ -89,6 +89,7 @@
     }
     #brand_bod {
         margin-top: 2.5vh;
+        padding: 0 1.5vw;
         border-right: 1px solid #fce32a;
         border-left: 1px solid #fce32a;
     }
@@ -151,6 +152,7 @@
     }
     #brand_bod {
         margin-top: 2.5vh;
+        padding: 0 1.5vw;
         border-right: 1px solid #fce32a;
         border-left: 1px solid #fce32a;
     }
