@@ -31,6 +31,7 @@
 }
 #section1 div div img{
     margin-bottom: 20px;
+    width: inherit;
 }
 
 #section1 div div h2 {
