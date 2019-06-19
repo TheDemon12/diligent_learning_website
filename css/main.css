@@ -8,8 +8,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-    background-color: #ffffff;
-background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    background-color: #e7eff9;
+    background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+
 }
 #caro-1 .carousel-inner{
     height: 85vh;
@@ -106,6 +107,8 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 #section1 div div {
     padding: 25px;
     min-width: 300px;
+    background-color: rgba(255,255,255,0.3);
+    margin: 10px 10px;
 }
 #section1 div div i {
     /* display: block; */
@@ -113,11 +116,11 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
     height: auto;
     font-size: 40px;
     padding: 20px;
-    color: #fce32a;
-    border: 2px solid #000;
+    color: #000;
+    border-bottom: 1px solid #000;
     background-color: rgba(255,255,255,0);
     margin-bottom: 20px;
-    border-radius: 80px;
+    /* border-radius: 80px; */
     vertical-align: middle;
 }
 #section1 div div h2 {
@@ -131,10 +134,10 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
     font-family: 'Roboto', sans-serif;
     font-size: 16.5px;
 }
-.bod {
+/* .bod {
     border-right: 1.5px solid #fce32a;
     border-left: 1.5px solid #fce32a;
-}
+} */
 
 #section2 {
     margin-top:5vh;
@@ -194,8 +197,8 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 }
 
 @media screen and (max-width: 991px)  {
-    #section1 div div {
-        min-width: 100%;
+    #section1 {
+        max-width: 90vw;
     }
     #section2 div div {
         min-width: 100%;
