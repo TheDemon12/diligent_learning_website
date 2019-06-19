@@ -8,10 +8,16 @@
     margin-top: 8vh;
     margin-bottom: 8vh;
 }
+
 #section1 div div h2 {
     font-size: 20px;
     font-weight:500;
     font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #fce32a;
+    width: fit-content;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
 }
 
 #section1 div div form {
@@ -33,10 +39,6 @@
     padding-right: 2vw;
 }
 
-#section1 div .col-8 hr {
-    max-width: 10vw;
-    background-color: #fce32a;
-}
 
 #section1 div .col-4  {
     border-left: 1px solid #fce32a;
@@ -48,7 +50,35 @@
     margin-top: 1vh;
     margin-bottom: 7vh;
 }
-#section1 div .col-4 hr {
-    max-width: 7vw;
-    background-color: #fce32a;
+.row .col-4 h2{
+    padding: 10px;
+    border-bottom: 1px solid #fce32a;
+    width: fit-content;
+    text-align: center;
+    margin: 10px auto;
+}
+@media screen and (max-width: 1150px) and (min-width: 801px){
+    #section1 {
+        max-width: 85vw;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #section1 {
+        max-width: 80vw;
+    }
+    #section1 .row div {
+        min-width: 100%;
+    }
+    #section1 div .col-4  {
+        border-left: none;
+        order: 1;
+        padding-top: 0;
+        padding-bottom: 1vh;
+
+    }
+    #section1 div .col-8  {
+        padding-right: 2vw;
+        order: 2;
+    }
 }
