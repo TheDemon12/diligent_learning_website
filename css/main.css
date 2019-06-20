@@ -182,10 +182,10 @@ body {
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    border-color: #fce32a;
+    border-color: #000;
 }
 #section2 div div button:hover{
-    background-color: #fce32a;
+    background-color: #fff;
 }
 
 #caro-2 {
@@ -199,7 +199,20 @@ body {
     height: 40vh;
     object-fit: cover;
 }
+#caro-2 .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size:30px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
 
+#caro-2 .carousel-inner .carousel-item .carousel-caption p {
+    font-size:20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    max-width: 60vh;
+    margin: 2vh auto;
+
+}
 @media screen and (max-width: 991px)  {
     #section1 {
         max-width: 90vw;
