@@ -13,14 +13,14 @@ body {
 
 }
 #caro-1 .carousel-inner{
-    height: 85vh;
+    height: 100vh;
 }
 #caro-1 .carousel-inner .carousel-item .carousel-caption {
-    top:30vh;
+    top:35vh;
     bottom:auto;
 }
 #caro-1 .carousel-inner .carousel-item img {
-    height: fit-content;
+    height: 100vh;
     object-fit: cover;
 }
 
@@ -29,9 +29,7 @@ body {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
-.second_item {
-    color: #000;
-}
+
 #caro-1 .carousel-inner .carousel-item .carousel-caption p {
     font-size:20px;
     font-weight: 400;
@@ -56,30 +54,36 @@ body {
 
 
 #know_more {
-    background-color: #000000;
-background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
-    height: 20vh;
+    margin-top: 10vh;
 }
 #know_more h1{
     color: #fce32a;
-    font-size: 35px;
-    font-family: 'Oswald', sans-serif;
+    font-size: 36px !important;
+    font-family: 'Oswald', sans-serif !important;
     padding-top: 2.5vh;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500 !important;
 }
 #know_more p{
     color: #fce32a;
-    font-size: 18px;
-    font-family: 'Oswald', sans-serif;
+    font-size: 17px !important;
+    font-family: 'Oswald', sans-serif !important;
     padding-top: 1vh;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 400;
 }
-#know_more a{
+#know_more * a{
     color: #fce32a;
     text-decoration: none;
-    font-weight: 400;
+
+}
+#know_more p a i{
+    font-size: 30px;
+
+}
+.second_item {
+    color: #000 !important;
 }
 
 #section1 {
@@ -225,7 +229,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 @media screen and (max-width: 991px) and (min-width:500px) {
 
         #caro-1 .carousel-inner .carousel-item .carousel-caption {
-            top:15vh;
+            top:25vh;
             bottom:auto;
         }
         #caro-1 .carousel-inner .carousel-item .carousel-caption button {
