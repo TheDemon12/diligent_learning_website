@@ -1,5 +1,6 @@
 #foot {
-    background-color: #0c0c0c;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
     height: 260px;
 }
 
@@ -9,7 +10,7 @@
 
 #foot .container-fluid {
     padding-top: 5vh;
-    color: #6c6c6c;
+    color: #000;
     font-size: 14px;
     font-style: italic;
 }
@@ -22,14 +23,14 @@
     margin: auto;
     text-align: center;
     font-size: 15px;
-    border-right: 1px solid #fce32a;
-    border-left: 1px solid #fce32a;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
     padding: 0 20px;
 }
 
 #social {
 
-    color: #fce32a;
+    color: #000;
     font-size: 20px;
 }
  #social ul {
@@ -40,7 +41,7 @@
 
 .links {
     text-align: center;
-    color: #fff;
+    color: #000;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     line-height: 1;
@@ -52,7 +53,7 @@
 
 }
 .dash {
-    border-right: 1px solid #fce32a;
+    border-right: 1px solid #000;
     padding-right: 20px;
 }
 
@@ -90,8 +91,8 @@
     #brand_bod {
         margin-top: 2.5vh;
         padding: 0 1.5vw;
-        border-right: 1px solid #fce32a;
-        border-left: 1px solid #fce32a;
+        border-right: 1px solid #000;
+        border-left: 1px solid #000;
     }
     #social ul li{
         text-align: center;
@@ -153,8 +154,8 @@
     #brand_bod {
         margin-top: 2.5vh;
         padding: 0 1.5vw;
-        border-right: 1px solid #fce32a;
-        border-left: 1px solid #fce32a;
+        border-right: 1px solid #000;
+        border-left: 1px solid #000;
     }
     #social ul li{
         text-align: center;
