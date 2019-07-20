@@ -1,0 +1,21 @@
+body {
+    background-color: #f6f6f6;
+    background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
+}
+#section1 {
+    margin-top:12vh;
+    text-align: center;
+}
+#section1 div {
+    list-style:none;
+    margin: 7vh auto;
+}
+#section1 div h3{
+    margin-bottom: 3vh;
+}
+#section1 div ul {
+    padding-left: 0px;
+}
+#section1 div ul li {
+    list-style:none;
+}
