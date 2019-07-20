@@ -11,6 +11,7 @@ body {
 #section1 .row {
     margin-top: 8vh;
     margin-bottom: 8vh;
+
 }
 
 #section1 div div h2 {
@@ -20,7 +21,7 @@ body {
     border-bottom: 1px solid #3b5998;
     width: fit-content;
     text-align: center;
-    margin: 10px auto;
+    margin: 3vh auto;
     padding: 10px;
 }
 
@@ -47,12 +48,11 @@ body {
 #section1 div .col-4  {
     border-left: 1px solid #3b5998;
     padding-left: 2vw;
-    padding-top: 8vh;
 }
 
 #section1 div .col-4 p {
     margin-top: 1vh;
-    margin-bottom: 7vh;
+    margin-bottom: 5vh;
 }
 .row .col-4 h2{
     padding: 10px;
@@ -61,6 +61,15 @@ body {
     text-align: center;
     margin: 10px auto;
 }
+
+iframe {
+    width: 100%;
+    height: 50vh;
+    margin: 5vh auto;
+
+}
+
+
 @media screen and (max-width: 1150px) and (min-width: 801px){
     #section1 {
         max-width: 85vw;
