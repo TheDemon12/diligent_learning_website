@@ -1,8 +1,25 @@
 #section1 {
-    margin-top:12vh;
+    margin-top:5vh;
     text-align: center;
     max-width: 70vw;
     margin-bottom: 5vh;
+}
+#banner {
+    margin-top: 7vh;
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+#bannerText {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top : 18vh;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
 }
 #section1 h1 {
     font-size: 30px;

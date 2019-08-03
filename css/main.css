@@ -176,6 +176,7 @@ body {
     font-weight:400;
     font-family: 'Roboto', sans-serif;
     font-size: 16.5px;
+    margin-top: 2vh;
 }
 #section2 div div button{
     color :#000;
@@ -183,6 +184,14 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     border-color: #000;
+}
+#section2 div div button a{
+    color :#000;
+    text-decoration: none;
+}
+#section2 div div button a:hover{
+    color :#000;
+    text-decoration: none;
 }
 #section2 div div button:hover{
     background-color: #fff;
