@@ -96,7 +96,12 @@
 .modal-body img {
     width: 100% !important;
 }
-
+.modal {
+  margin: 0px!important;
+}
+.modal-content {
+  margin: 25px!important;
+}
 .modal-header {
   margin: 0px!important;
   padding:5px;
