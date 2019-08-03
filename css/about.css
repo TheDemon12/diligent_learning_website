@@ -18,15 +18,13 @@ body {
     position: absolute;
     width: 100%;
     margin: auto;
-    top : 20vh;
+    top: 18vh;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-size: 5vh;
-
 }
-
 #section1 h3{
     margin-top: 5vh;
     margin-bottom: 2vh;

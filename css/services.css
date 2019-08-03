@@ -68,12 +68,15 @@
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    border-color: #fce32a;
+    border-color: #3b5998;
     display: block;
     margin: 0 auto;
 }
 #section1 div div button:hover{
-    background-color: #fce32a;
+    background-color: #fff;
+}
+#section1 div div button:focus{
+  box-shadow: none;
 }
 
 .row-center {
@@ -83,7 +86,26 @@
 .row-center .col{
     max-width: 25%;
 }
+.modal-dialog {
+    margin: auto !important;
+}
+.modal-body {
+    margin: 0 !important;
+    padding: 5px;
+}
+.modal-body img {
+    width: 100% !important;
+}
 
+.modal-header {
+  margin: 0px!important;
+  padding:5px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.modal-header i{
+  margin: 0px auto;
+}
 
 
 @media screen and (max-width: 991px)  {
