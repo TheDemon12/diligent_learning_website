@@ -6,6 +6,7 @@ margin:-90px 0 0; /* negative fixed header height */
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
     background-color: #e7eff9;
@@ -224,7 +225,75 @@ body {
     margin: 2vh auto;
 
 }
-@media screen and (max-width: 991px)  {
+
+
+#banner {
+  margin-top: 6vh;
+  height: 94vh;
+
+}
+#banner img {
+  height: 94vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+#content {
+  color: #fff;
+  position: absolute;
+  width: 100vw;
+  z-index: 1;
+  top:30vh;
+  text-align: center;
+}
+#content h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 65px;
+}
+
+#content h2 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 26px;
+}
+
+#inner_content {
+  margin-top: 10vh;
+  max-width: 40vw;
+}
+#inner_content p{
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 26px;
+  margin: 5vh 0;
+}
+
+#inner_content button {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(255,255,255,0);
+  border: 1.5px solid #3b5998;
+  margin: 3vh 1vw;
+}
+#inner_content button a{
+  color: #fff;
+}
+#inner_content button a:hover{
+  text-decoration: none;
+}
+#inner_content p a i{
+  font-size: 50px;
+  color: #fff;
+
+}
+
+@media screen and (max-width: 1200px)  {
+  #inner_content {
+    max-width: 60vw;
+  }
+}
+
+@media screen and (max-width:1199px) and (min-width:992px) {
     #section1 {
         max-width: 90vw;
     }
@@ -232,6 +301,12 @@ body {
         min-width: 100%;
         margin: 15px auto;
     }
+
+    #inner_content {
+      max-width: 60vw;
+    }
+
+
     #section2 div div {
         min-width: 100%;
     }
@@ -247,10 +322,19 @@ body {
         width: 60vw;
         margin: auto;
     }
+    #inner_content {
+      max-width: 80vw;
+    }
+    #content h1 {
+      font-size: 55px;
+    }
+    #content h2 {
+      font-size: 24px;
+    }
 
 }
 
-@media screen and (max-width: 991px) and (min-width:500px) {
+@media screen and (max-width: 599px) and (min-width:500px) {
 
         #caro-1 .carousel-inner .carousel-item .carousel-caption {
             top:25vh;
@@ -258,6 +342,16 @@ body {
         }
         #caro-1 .carousel-inner .carousel-item .carousel-caption button {
             display: none;
+        }
+
+        #inner_content {
+          max-width: 90vw;
+        }
+        #content h1 {
+          font-size: 55px;
+        }
+        #content h2 {
+          font-size: 24px;
         }
     }
 
@@ -269,6 +363,24 @@ body {
         }
         #caro-1 .carousel-inner .carousel-item .carousel-caption button {
             display: none;
+        }
+        #inner_content {
+          max-width: 90vw;
+        }
+        #content h1 {
+          font-size: 45px;
+        }
+        #content h2 {
+          font-size: 22px;
+        }
+        #inner_content p{
+          font-size: 22px;
+        }
+        #content {
+          top:20vh;
+        }
+        #inner_content p a i{
+          font-size: 30px;
         }
     }
 @media screen and (max-width: 399px) and (min-width:350px) {
@@ -286,8 +398,24 @@ body {
         #caro-1 .carousel-inner .carousel-item .carousel-caption p {
             font-size:18px;
             max-width: 80vh;
-
-
+        }
+        #inner_content {
+          max-width: 90vw;
+        }
+        #content h1 {
+          font-size: 45px;
+        }
+        #content h2 {
+          font-size: 22px;
+        }
+        #inner_content p{
+          font-size: 21px;
+        }
+        #content {
+          top:20vh;
+        }
+        #inner_content p a i{
+          font-size: 30px;
         }
     }
     @media screen and (max-width: 349px){
@@ -305,7 +433,27 @@ body {
             #caro-1 .carousel-inner .carousel-item .carousel-caption p {
                 font-size:16px;
                 max-width: 80vh;
-
-
+            }
+            #inner_content {
+              max-width: 90vw;
+            }
+            #content h1 {
+              font-size: 35px;
+            }
+            #content h2 {
+              font-size: 18px;
+            }
+            #inner_content p{
+              font-size: 20px;
+            }
+            #content {
+              top:20vh;
+            }
+            #inner_content p a i{
+              font-size: 25px;
+            }
+            #inner_content button {
+              font-size: 18px;
+              margin: 1vh 1vw;
             }
         }
