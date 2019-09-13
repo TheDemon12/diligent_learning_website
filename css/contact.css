@@ -9,8 +9,8 @@ body {
 }
 
 #section1 .row {
-    margin-top: 8vh;
-    margin-bottom: 8vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 
 }
 
@@ -46,15 +46,13 @@ body {
 
 
 #section1 div .col-4  {
-    border-left: 1px solid #3b5998;
-    padding-left: 2vw;
 }
 
-#section1 div .col-4 p {
+#section1 div .col p {
     margin-top: 1vh;
     margin-bottom: 5vh;
 }
-.row .col-4 h2{
+.row .col h2{
     padding: 10px;
     border-bottom: 1px solid #3b5998;
     width: fit-content;
@@ -101,15 +99,5 @@ iframe {
     #section1 .row div {
         min-width: 100%;
     }
-    #section1 div .col-4  {
-        border-left: none;
-        order: 1;
-        padding-top: 0;
-        padding-bottom: 1vh;
 
-    }
-    #section1 div .col-8  {
-        padding-right: 2vw;
-        order: 2;
-    }
 }
