@@ -50,6 +50,8 @@
 #section1 div div img{
     margin-bottom: 20px;
     width: inherit;
+    padding: 5px;
+    border: 1px #000 solid;
 }
 
 #section1 div div h2 {
